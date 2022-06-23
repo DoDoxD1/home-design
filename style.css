@@ -4,14 +4,8 @@
     font-family: sans-serif;
 }
 .bg-container{
-    width: 100vw;
     height: 100vh;
-}
-.bg-container img{
-    /* background-position: center;
-    background-attachment: fixed;
-    background-size:auto;
-    margin: cover;
-    display:block; */
-    object-fit: contain;
+    background-image: url("background.jpg");
+    background-position: center;   
+    background-size: cover;
 }
